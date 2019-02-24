@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So sanh ket qua tinh tong</title>
+</head>
+<body>
+a:<input type="text" id="a">
+b:<input type="text" id="b">
+<hr>
+<button onclick="hienthi()"> Result</button>
+<input type="text" id="thongbao">
+<script>
+    function hienthi() {
+        var c=parseFloat(a.value)+parseFloat(b.value);
+        if (c=>4) {thongbao.value="over"} else {thongbao.value="Below"}
+    }
+</script>
+</body>
+</html>
